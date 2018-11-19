@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Welcome to the Programming World | C | C++ | Python | Java </title>
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+        <!--jQuery library--> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!--Latest compiled and minified JavaScript--> 
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="login.css">
+        <link rel="shortcut icon" type= "image/png" href="img/favi.jpg">
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:600'>
+        <script src="login.js"></script>  
+      <script>
+  $(document).ready(function(){
+    alert('You have only 3 attemps to sign in!!');
+  });
+</script>
+    </head>
+    <body>
+        
+        <!--header-->
+        <div class="navbar navbar-inverse navbar-fixed-top">
+             <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>    
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+             
+                <a href="index.html" class="navbar-brand"><font color="#cc00cc">Programming &nbsp; World</font></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                  <ul class="nav navbar-nav navbar-right">
+                      <li><a href="#xyz"><span class="glyphicon glyphicon-log-in"></span> &nbsp; Login</a></li>
+                      <li><a href="https://www.codechef.com/ide" target="_blank"><span class="glyphicon glyphicon-new-window"></span> &nbsp; Online IDE</a></li>
+                      <li><a href="https://www.tutorialspoint.com/computer_programming_tutorials.htm" target="_blank"><span class="glyphicon glyphicon-book"></span>&nbsp; Tutorials</a></li>      
+                  </ul> 
+            </div>
+            </div>
+        </div>
+        <!--header ends-->
+    <marquee><p><img src="img/gif.gif">&nbsp; <font color=" #9900cc">To unlock the content of programming world. You need to log-in with your credentials for security reasons. If you are facing any problem with sign in then please let us know. You can contact us at any time. We will try to solve your issue ASAP.</font></p></marquee>
+          <div class="content">
+           <div class="banner_image">
+                <div class="container">
+                    <center>
+                   <div class="banner_content">
+                       <font color="#ff99ff"><h1>World of Programming</h1></font>
+                       <p>Boost your coding skills</p>
+                       <br>
+                    <a  href="#bottom" class="btn btn-danger btn-lg-active"><span class="blinking">Explore Now!</span></a>
+                 
+                   </div>
+                    </center>
+                 </div>
+            </div>
+          </div>
+            
+          <br><br>
+          <br><br>
+          <br>
+          <br>
+          
+   
+          
+<div class="login-wrap" id="xyz">
+	<div class="login-html">
+            <p><strong><em>You need to login with your credentials to move further.</em></strong></p>
+		<input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
+		<input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Credentials</label>
+		<div class="login-form">
+			<div class="sign-in-htm">
+				<div class="group">
+					<label for="user" class="label">Username</label>
+					<input name="username" id="username"  type="text" class="input">
+				</div>
+				<div class="group">
+					<label for="pass" class="label">Password</label>
+                                        <input name="password" id="password"  type="password" class="input" data-type="password">
+				</div>
+				<div class="group">
+					<input id="check" type="checkbox" class="check" checked>
+					<label for="check"><span class="icon"></span> Keep me Signed in</label>
+				</div>
+				<div class="group">
+					<input type="button" class="button" value="Login" id="submit" onclick="validate()"/>
+				</div>
+                               
+				<div class="hr"></div>
+				<div class="foot-lnk">
+					<label for="tab-2">Forgot Password?</a>
+				</div>
+			</div>
+			<div class="sign-up-htm">
+				<div class="group">
+					<label for="user" class="label">Username</label>
+                                     
+                                        <input id="user" type="text" class="input" placeholder="12345">
+				</div>
+				<div class="group">
+					<label for="pass" class="label">Password</label>
+                                        <input id="pass" type="password" class="input" placeholder="12345" data-type="password">
+				</div>
+				<div class="group">
+					<input type="submit" class="button" value="Sign Up">
+				</div>
+				<div class="hr"></div>
+				<div class="foot-lnk">
+					<label for="tab-1">Already known?</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+        
+         <!-- footer part-->
+        <footer>
+            <div class="container">
+                <center>
+                    <p>
+                  Copyright &copy; Programming world | &nbsp;<a href="https://www.facebook.com/rajatenzyme" target="_blank">Rajat Mittal</a> &nbsp;| &nbsp; All &nbsp; Rights &nbsp; Reserved.
+                  <br>
+                  <span class="glyphicon glyphicon-phone"></span> : <a href="tel:+918426878666">+91 8426878666</a> &nbsp;
+                  <span class="glyphicon glyphicon-envelope"></span> : &nbsp; <a href="mailto:rajatmittal2012@gmail.com" target="_top">rajatmittal2012@gmail.com</a> 
+                    </p>
+                </center>
+            </div>
+        </footer>    
+</body>
+</html>
